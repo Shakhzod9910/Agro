@@ -1,0 +1,468 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1250px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.min-container {
+  max-width: 1116px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.navbar {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.navbar .navbar-wrapper {
+  display: flex;
+}
+.navbar .navbar-wrapper .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.navbar .navbar-wrapper .nav .contact-btn {
+  text-decoration: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 42px;
+  padding-left: 40px;
+  font-family: "Heebo";
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 27px;
+  color: #fff;
+  background-color: #005FAB;
+  transition: all 0.3s ease;
+}
+.navbar .navbar-wrapper .nav .contact-btn:hover {
+  transform: scale(1.02);
+}
+.navbar .navbar-wrapper .nav ul {
+  display: flex;
+  list-style: none;
+  width: 751px;
+  height: 53px;
+  margin-left: 50px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #E8E8E8;
+  border-radius: 27px;
+}
+.navbar .navbar-wrapper .nav ul li {
+  border-right: 1px solid #A3A3A3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  flex-grow: 1;
+}
+.navbar .navbar-wrapper .nav ul li:last-child {
+  border: none;
+}
+.navbar .navbar-wrapper .nav ul li .hover-tag {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-bottom: 8px solid transparent;
+  transition: all 0.3s ease;
+}
+.navbar .navbar-wrapper .nav ul li .hover-tag:hover {
+  border-bottom: 8px solid #005FAB;
+}
+.navbar .navbar-wrapper .nav ul li .hover-tag a {
+  font-family: "Heebo";
+  text-decoration: none;
+  color: #023A56;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+.navbar .navbar-wrapper .nav ul li .active {
+  border-bottom: 8px solid #005FAB;
+}
+
+.main {
+  padding-top: 120px;
+  padding-bottom: 235px;
+  background-color: #005FAB;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../img/IO7A7399.png);
+}
+.main .main-wrapper .header h1 {
+  font-family: "Heebo";
+  font-weight: bold;
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+}
+.main .main-wrapper .header p {
+  font-family: "Heebo";
+  font-weight: 400;
+  font-size: 15px;
+  max-width: 535px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  margin-top: 27px;
+  color: #fff;
+}
+.main .main-wrapper .header .navigate {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 18px;
+}
+.main .main-wrapper .header .navigate a {
+  padding: 26px 50px;
+  border-radius: 38px;
+  gap: 20px;
+  text-decoration: none;
+  font-family: "Heebo";
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+.main .main-wrapper .header .navigate a:hover {
+  transform: scale(1.02);
+}
+.main .main-wrapper .header .navigate a img {
+  margin-left: 24px;
+}
+.main .main-wrapper .header .navigate .nav-white {
+  color: #023A56;
+  background-color: #fff;
+}
+.main .main-wrapper .header .navigate .nav-black {
+  color: #fff;
+  background-color: #023A56;
+}
+
+.about-us {
+  height: 214px;
+  background-color: #023A56;
+  position: relative;
+}
+.about-us .about-us-wrapper .frame {
+  max-width: 1176px;
+  width: 100%;
+  height: 419px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -139px;
+}
+.about-us .about-us-wrapper .frame .box1 {
+  max-width: 732px;
+  width: 100%;
+  height: 192px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #A3A3A3;
+}
+.about-us .about-us-wrapper .frame .box2 {
+  max-width: 732px;
+  width: 100%;
+  height: 192px;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #005FAB;
+}
+.about-us .about-us-wrapper .frame .content {
+  position: relative;
+  z-index: 2;
+  max-width: 1116px;
+  max-height: 359px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.about-us .about-us-wrapper .frame .content .left {
+  max-width: 541px;
+  width: 100%;
+  background-color: #fff;
+  padding-top: 54px;
+  padding-left: 60px;
+}
+.about-us .about-us-wrapper .frame .content .left h1 {
+  font-family: "Heebo";
+  font-size: 25px;
+  font-weight: 500;
+  margin-bottom: 26px;
+  color: #023A56;
+  text-transform: uppercase;
+}
+.about-us .about-us-wrapper .frame .content .left p {
+  max-width: 400px;
+  font-family: "Heebo";
+  color: #848484;
+  line-height: 22px;
+  font-size: 15px;
+  margin-bottom: 46px;
+}
+.about-us .about-us-wrapper .frame .content .left a {
+  padding: 16px 42px;
+  border: 2px solid #023A56;
+  border-radius: 27px;
+  color: #023A56;
+  font-family: "Heebo";
+  font-size: 15px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+.about-us .about-us-wrapper .frame .content .left a:hover {
+  transform: scale(1.02);
+}
+.about-us .about-us-wrapper .frame .content .right {
+  background-image: url(../img/IO7A7687.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  width: 100%;
+}
+
+.season {
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+.season .season-wrapper h1 {
+  text-align: center;
+  font-family: "Heebo";
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 26px;
+  color: #023A56;
+  text-transform: uppercase;
+}
+.season .season-wrapper p {
+  max-width: 635px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  font-family: "Heebo";
+  color: #848484;
+  font-size: 15px;
+}
+.season .season-wrapper ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  list-style: none;
+}
+.season .season-wrapper ul li {
+  width: 357px;
+}
+.season .season-wrapper ul li img {
+  margin-bottom: 20px;
+  font-family: "Heebo";
+}
+.season .season-wrapper ul li span {
+  margin-bottom: 10px;
+  font-family: "Heebo";
+  font-size: 14px;
+  color: #023A56;
+}
+.season .season-wrapper ul li h2 {
+  margin-bottom: 24px;
+  font-family: "Heebo";
+  font-size: 19px;
+  color: #023A56;
+}
+.season .season-wrapper ul li a {
+  padding: 16px 42px;
+  border: 2px solid #023A56;
+  border-radius: 27px;
+  font-family: "Heebo";
+  font-size: 14px;
+  color: #023A56;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+.season .season-wrapper ul li a:hover {
+  transform: scale(1.02);
+}
+
+.servicing {
+  position: relative;
+  height: 430px;
+}
+.servicing .servicing-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 430px;
+  position: relative;
+}
+.servicing .servicing-wrapper img {
+  position: absolute;
+  left: -150px;
+  top: 0;
+  height: 430px;
+  z-index: -1;
+  width: 900px;
+}
+.servicing .servicing-wrapper .box {
+  height: 340px;
+  width: 530px;
+  position: relative;
+}
+.servicing .servicing-wrapper .box .box-frame {
+  width: 333px;
+  height: 175px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #005FAB;
+}
+.servicing .servicing-wrapper .box .content-wrapper {
+  width: 500px;
+  height: 315px;
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  right: 0;
+  background-color: #023A56;
+  padding: 50px;
+}
+.servicing .servicing-wrapper .box .content-wrapper h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: "Heebo";
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+.servicing .servicing-wrapper .box .content-wrapper p {
+  font-family: "Heebo";
+  color: #fff;
+  font-size: 15px;
+  font-weight: normal;
+  margin-bottom: 35px;
+}
+.servicing .servicing-wrapper .box .content-wrapper a {
+  padding: 16px 40px;
+  font-family: "Heebo";
+  font-size: 15px;
+  border-radius: 27px;
+  color: #fff;
+  background-color: #005FAB;
+  text-decoration: none;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+.servicing .servicing-wrapper .box .content-wrapper a:hover {
+  transform: scale(1.02);
+}
+
+footer {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: #F2F2F2;
+}
+footer .footer-wrapper .footer-items {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+footer .footer-wrapper .footer-items li ul {
+  list-style: none;
+  border-right: 1px solid #A3A3A3;
+  padding-right: 50px;
+  height: 170px;
+}
+footer .footer-wrapper .footer-items li ul li {
+  color: #848484;
+  font-size: 15px;
+  font-family: "Heebo";
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+footer .footer-wrapper .footer-items li ul .first-item {
+  font-size: 15px;
+  font-family: "Heebo";
+  font-weight: bold;
+  color: #023A56;
+}
+footer .footer-wrapper .footer-items li .social-items {
+  width: 150px;
+}
+footer .footer-wrapper .footer-items li .social-items span {
+  font-size: 15px;
+  font-family: "Heebo";
+  font-weight: bold;
+  color: #023A56;
+}
+footer .footer-wrapper .footer-items li .social-items .social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+footer .footer-wrapper .footer-items li .terms {
+  display: flex;
+  flex-direction: column;
+}
+footer .footer-wrapper .footer-items li .terms a {
+  padding: 16px 42px;
+  border-radius: 27px;
+  color: #fff;
+  background-color: #005FAB;
+  font-family: "Heebo";
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-bottom: 155px;
+  transition: all 0.3s ease;
+}
+footer .footer-wrapper .footer-items li .terms a:hover {
+  transform: scale(1.02);
+}
+footer .footer-wrapper .footer-items li .terms span {
+  font-size: 15px;
+  font-family: "Heebo";
+  color: #848484;
+  font-weight: normal;
+}
+
+.about-header {
+  background-image: url(../img/IO7A6917.png);
+  height: 263px;
+}
+.about-header .about-header-wrapper {
+  height: 100%;
+  position: relative;
+}
+.about-header .about-header-wrapper h1 {
+  font-size: 45px;
+  font-family: "Heebo";
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-top-right-radius: 30px;
+  border-top-left-radius: 30px;
+  background-color: rgba(0, 95, 171, 0.5);
+}/*# sourceMappingURL=style.css.map */
